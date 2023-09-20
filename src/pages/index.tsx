@@ -110,7 +110,7 @@ const getImgSrc = async ({
     await fs.stat(filePath);
     return { ...item, imgSrc: imgSrc };
   } catch {
-    console.log("no img");
+    //console.log("no img");
     return item;
   }
 };
